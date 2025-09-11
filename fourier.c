@@ -42,8 +42,8 @@ void fft(complex s[], complex t[], int n, int sign) {
     }
 
     int m = n / 2;
-    complex even[m], odd[m];
-    complex even_t[m], odd_t[m];
+    complex even[999], odd[999];
+    complex even_t[999], odd_t[999];
 
     for (int i = 0; i < m; i++) {
         even[i] = s[2 * i];
